@@ -1,0 +1,19 @@
+{
+  "name": "playwright-e2e",
+  "version": "1.0.0",
+  "description": "End to end test automation framework using playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "codegen": "npx playwright codegen",
+    "report": "npx playwright show-report",
+    "interactive-mode": "npx playwright test --ui",
+    "test-chrome": "npx playwright test --project=chromium"
+  },
+  "author": "hariprasathvs",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0"
+  }
+}
