@@ -9,7 +9,8 @@
     "report": "npx playwright show-report",
     "interactive-mode": "npx playwright test --ui",
     "test-chrome": "npx playwright test --project=chromium",
-    "test:functional": "npx playwright test tests/functional --headed"
+    "test:functional": "npx playwright test tests/functional --headed",
+    "test:visual":"npx playwright test tests/visual --headed"
   },
   "author": "hariprasathvs",
   "license": "ISC",
