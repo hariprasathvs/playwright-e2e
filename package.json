@@ -10,12 +10,22 @@
     "interactive-mode": "npx playwright test --ui",
     "test-chrome": "npx playwright test --project=chromium",
     "test:functional": "npx playwright test tests/functional --headed",
-    "test:visual":"npx playwright test tests/visual --headed"
+    "test:visual": "npx playwright test tests/visual --headed",
+    "test:performance": "npx playwright test tests/performance --headed",
+    "test:accessibility": "npx playwright test tests/accessibility --headed"
   },
   "author": "hariprasathvs",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.0",
-    "@types/node": "^22.10.0"
+    "@types/node": "^22.10.0",
+    "@axe-core/playwright": "^4.10.1",
+    "dotenv": "^16.4.7",
+    "lighthouse": "^12.3.0",
+    "path": "^0.12.7",
+    "playwright": "^1.50.1",
+    "playwright-lighthouse": "^4.0.0"
+  },
+  "dependencies": {
   }
 }
